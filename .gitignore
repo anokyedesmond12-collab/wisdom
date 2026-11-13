@@ -1,0 +1,7 @@
+.env
+.env.*
+/config/*.php
+!/config/README.md
+/uploads/
+/vendor/
+/test_db.php
