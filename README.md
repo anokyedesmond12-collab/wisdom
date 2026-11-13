@@ -1,5 +1,13 @@
-Private runtime configuration is not included in this public repository.
+# EduTrack
 
-Create the configuration files required by the application here using your own
-local database, payment, SMS, mail, and OAuth credentials. Never commit actual
-credentials or school/student data.
+EduTrack is a PHP and MySQL school-management application.
+
+## Local setup
+
+1. Use PHP with the extensions required by the application, MySQL, and Composer.
+2. Run `composer install`.
+3. Create the private configuration files required under `config/` using your own local credentials.
+4. Configure the database and apply the SQL migrations in `database/migrations/`.
+5. Keep credentials, student data, and uploaded school files out of this public repository.
+
+Private configuration and uploaded school logos were intentionally excluded from this upload.

@@ -1,0 +1,888 @@
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* Navigation bar */
+header {
+    background-color: #123c69;
+    color: white;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 15px;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Main section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #123c69;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Button */
+button {
+    background-color: #123c69;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d5b91;
+}
+/* Subscription packages */
+
+.packages {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.packages h2 {
+    color: #123c69;
+    margin-bottom: 35px;
+}
+
+.package-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.package-card {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.package-card h3 {
+    color: #123c69;
+    margin-bottom: 15px;
+}
+
+.package-card p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+
+
+/* EDUTRACK SCHOOL REGISTRATION PAGE */
+
+.registration-page {
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+    padding: 40px 15px;
+    color: #1e293b;
+}
+
+.registration-page h1 {
+    text-align: center;
+    color: #123b70;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.registration-page p {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.registration-form {
+    background: white;
+    max-width: 550px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.registration-form label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+.registration-form input,
+.registration-form select {
+    width: 100%;
+    padding: 13px;
+    margin-top: 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 4px rgba(37, 99, 235, 0.3);
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 14px;
+    background: #123b70;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.registration-form button:hover {
+    background: #2563eb;
+}
+
+
+
+.registration-container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.registration-heading {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.registration-heading h1 {
+    text-align: center;
+    color: #123b70;
+    margin-bottom: 10px;
+}
+
+.registration-heading p {
+    text-align: center;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+
+
+/* ==========================
+   EDUTRACK ADMIN DASHBOARD
+========================== */
+
+.dashboard-page {
+    margin: 0;
+    padding: 35px;
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.dashboard-header h1 {
+    color: #123b70;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.dashboard-header p {
+    color: #64748b;
+}
+
+.admin-profile {
+    background: #123b70;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* STATISTICS CARDS */
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.dashboard-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+    border-left: 5px solid #2563eb;
+}
+
+.dashboard-card h3 {
+    color: #64748b;
+    font-size: 15px;
+    font-weight: normal;
+}
+/* NUMBER COLOURS MATCHING THE HEADINGS */
+
+.dashboard-card:nth-child(1) h1 {
+    color: #2563eb;
+}
+
+.dashboard-card:nth-child(2) h1 {
+    color: #f59e0b;
+}
+
+.dashboard-card:nth-child(3) h1 {
+    color: #16a34a;
+}
+
+.dashboard-card:nth-child(4) h1 {
+    color: #dc2626;
+}
+/*.dashboard-card h1 {
+    color: #123b70;
+    font-size: 32px;
+    margin-top: 15px;*/
+
+/* SCHOOL RECORDS */
+
+.dashboard-page > h2 {
+    color: #123b70;
+    margin-bottom: 20px;
+}
+
+.school-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: visible;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.04);
+}
+
+.school-table th {
+    background: #123b70;
+    color: white;
+    padding: 16px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.school-table td {
+    padding: 16px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 14px;
+}
+
+.school-table tr:hover {
+    background: #f1f5f9;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 900px) {
+    .dashboard-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .dashboard-page {
+        padding: 15px;
+    }
+
+    .dashboard-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-header {
+        align-items: flex-start;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .school-table {
+        font-size: 12px;
+    }
+}
+
+
+
+
+/* STATUS BADGES */
+
+.status-badge {
+    display: inline-block;
+    padding: 7px 13px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Pending - Orange */
+.status-badge.pending {
+    background: #fff3cd;
+    color: #d97706;
+}
+
+/* Approved and Paid - Green */
+.status-badge.approved,
+.status-badge.paid {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+/* Rejected and Failed - Red */
+.status-badge.rejected,
+.status-badge.failed {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+
+/* Manage Menu */
+.manage-menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Manage Button */
+.manage-menu summary {
+    list-style: none;
+    background: #123b70;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.manage-menu summary::-webkit-details-marker {
+    display: none;
+}
+
+.manage-menu summary::after {
+    content: " ▾";
+    margin-left: 8px;
+}
+
+.manage-menu[open] summary::after {
+    content: " ▴";
+}
+
+.manage-menu summary:hover {
+    background: #1d4ed8;
+}
+
+/* Dropdown Container */
+.manage-dropdown {
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 190px;
+    background: white;
+    border-radius: 9px;
+    padding: 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border: 1px solid #e2e8f0;
+    z-index: 1000;
+}
+
+/* Dropdown Forms */
+.manage-dropdown form {
+    margin: 0;
+}
+
+/* Dropdown Buttons */
+.manage-dropdown button {
+    width: 100%;
+    padding: 11px 10px;
+    background: white;
+    border: none;
+    border-radius: 6px;
+    text-align: left;
+    font-size: 12px;
+    color: #334155;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.manage-dropdown button:hover {
+    background: #f1f5f9;
+}
+
+/* Payment and School Actions */
+.manage-dropdown form:nth-child(1) button {
+    color: #15803d;
+}
+
+.manage-dropdown form:nth-child(2) button {
+    color: #dc2626;
+}
+
+.manage-dropdown form:nth-child(4) button {
+    color: #dc2626;
+}
+
+.manage-dropdown hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 7px 0;
+}
+
+.school-table {
+    overflow: visible;
+}
+
+.manage-menu {
+    position: relative;
+    z-index: 1000;
+}
+
+.manage-dropdown {
+    display: none;
+}
+
+.manage-menu[open] .manage-dropdown {
+    display: block;
+}
+
+
+/* ==========================
+   EDUTRACK LOGIN PAGE
+========================== */
+
+.login-page {
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f2747, #1e4d82);
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 430px;
+}
+
+.login-heading {
+    text-align: center;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.login-heading h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.login-heading p {
+    color: #dbeafe;
+    font-size: 14px;
+}
+
+.login-form {
+    background: white;
+    padding: 40px 35px;
+    border-radius: 16px;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+
+.login-form h2 {
+    color: #123b70;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.login-form > p {
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.login-form label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+.login-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-form input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+}
+
+.login-form button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #123b70;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-form button:hover {
+    background: #2563eb;
+}
+
+.login-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 22px 0;
+    color: #94a3b8;
+    font-size: 12px;
+}
+
+.login-divider::before,
+.login-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #e2e8f0;
+}
+
+.login-form .google-login-btn {
+    background: white;
+    color: #334155;
+    border: 1px solid #cbd5e1;
+}
+
+.login-form .google-login-btn:hover {
+    background: #f1f5f9;
+}
+
+.login-form .login-footer {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+
+.login-footer a {
+    color: #2563eb;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-form {
+        padding: 30px 22px;
+    }
+}
+
+
+
+.academic-year-form {
+    background: white;
+    max-width: 600px;
+    padding: 30px;
+    margin: 25px 0 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.academic-year-form h2 {
+    color: #123b70;
+    margin-bottom: 25px;
+}
+
+.academic-year-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.academic-year-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.academic-year-form button {
+    background: #123b70;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.academic-year-form button:hover {
+    background: #2563eb;
+}
+
+
+.academic-year-form select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 14px;
+    background: white;
+}
+
+/* SUBJECT MANAGEMENT PAGE */
+
+.subjects-page {
+    padding: 30px;
+    background: #f4f6fa;
+}
+
+.subjects-header {
+    margin-bottom: 25px;
+}
+
+.subjects-header h1 {
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.subjects-header p {
+    color: #64748b;
+}
+
+/* SUBJECT CARDS */
+
+.subjects-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.subject-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.subject-box h2 {
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+
+.subject-box label {
+    display: block;
+    margin-bottom: 8px;
+    color: #334155;
+    font-weight: 600;
+}
+
+.subject-box input:not([type="checkbox"]) {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    box-sizing: border-box;
+
+}
+
+.subject-box button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* REGISTERED SUBJECTS TABLE */
+
+.subject-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.subject-table th {
+    background: #f1f5f9;
+    color: #475569;
+    text-align: left;
+    padding: 14px;
+}
+
+.subject-table td {
+    padding: 14px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+}
+
+.subject-table tr:hover {
+    background: #f8fafc;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 768px) {
+    .subjects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .subjects-page {
+        padding: 15px;
+    }
+}
+
+/* Assigned Subjects Section */
+
+.assigned-subjects-section {
+    background: #ffffff;
+    padding: 25px;
+    margin: 35px 0;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    max-width: 900px;
+}
+
+.assigned-subjects-header {
+    margin-bottom: 22px;
+}
+
+.assigned-subjects-header h2 {
+    font-size: 22px;
+    color: #172554;
+    margin-bottom: 6px;
+}
+
+.assigned-subjects-header p {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.assigned-subjects-table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.assigned-subjects-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.assigned-subjects-table th {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 15px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+.assigned-subjects-table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #334155;
+    font-size: 14px;
+}
+
+.assigned-subjects-table tr:hover {
+    background: #f8fafc;
+}
+
+.subject-badge {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.no-assigned-subjects {
+    padding: 20px;
+    background: #f8fafc;
+    color: #64748b;
+    border-radius: 8px;
+    text-align: center;
+}
